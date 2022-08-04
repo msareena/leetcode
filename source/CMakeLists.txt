@@ -4,8 +4,11 @@ project(leetcode)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-set(SOURCES
-    sample.cpp)
+add_subdirectory(273)
+add_subdirectory(sample)
 
 add_library(${PROJECT_NAME}
-            ${SOURCES})
+            leetcode.cpp)
+
+target_link_libraries(${PROJECT_NAME} problem_sample)
+target_link_libraries(${PROJECT_NAME} problem_273)
