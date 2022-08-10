@@ -37,11 +37,11 @@
 		"vscode": {
 			"extensions": [
 				"eamodio.gitlens",
+                "matepek.vscode-catch2-test-adapter",
 				"mhutchie.git-graph",
 				"ms-vscode.cmake-tools",
 				"ms-vscode.cpptools",
-				"ms-vscode.cpptools-extension-pack",
-				"matepek.vscode-catch2-test-adapter"
+				"ms-vscode.cpptools-extension-pack"
 			]
 		}
 	}
