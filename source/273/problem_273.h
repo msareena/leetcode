@@ -1,3 +1,5 @@
 #pragma once
 
-bool problem_273();
+#include <string>
+
+std::string problem_273(int number);
