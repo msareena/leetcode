@@ -36,8 +36,9 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-                "eamodio.gitlens",
-                "mhutchie.git-graph",
+				"eamodio.gitlens",
+                "matepek.vscode-catch2-test-adapter",
+				"mhutchie.git-graph",
 				"ms-vscode.cmake-tools",
 				"ms-vscode.cpptools",
 				"ms-vscode.cpptools-extension-pack"
